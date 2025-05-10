@@ -1,0 +1,33 @@
+# Create .gitignore
+echo "
+# Unity
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+[Uu]serSettings/
+.vs/
+.utmp/
+password/
+
+# IDE
+*.csproj
+*.sln
+*.user
+*.suo
+
+# System
+.DS_Store
+Thumbs.db
+
+# Unity Packages
+*.unitypackage
+
+# Others
+*.apk
+*.ipa
+*.log
+" > .gitignore
